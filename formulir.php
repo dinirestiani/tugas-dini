@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="welcome.html" method="get">
+    <form action="welcome.php" method="post">
     <h1>Buat Account Baru</h1>
     <h3>Sign Up Form</h3>
     <br>
@@ -41,12 +41,12 @@
 
     <p>Language Spoke</p>
     <form>
-        <input type="checkbox" id="language1" name="language1" value="Indonesia">
-        <label for="language1"> Bahasa indonesia</label><br>
-        <input type="checkbox" id="language2" name="language2" value="English">
-        <label for="language2"> English</label><br>
-        <input type="checkbox" id="language3" name="language3" value="Other">
-        <label for="language3">Other</label> <br>
+        <input type="checkbox" id="language1" name="language" value="Indonesia">
+        <label for="language"> Bahasa indonesia</label><br>
+        <input type="checkbox" id="language2" name="language" value="English">
+        <label for="language"> English</label><br>
+        <input type="checkbox" id="language3" name="language" value="Other">
+        <label for="language">Other</label> <br>
     
 
     <p>Bio</p>
